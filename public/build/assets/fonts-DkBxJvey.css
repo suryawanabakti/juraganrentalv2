@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200,800;
+  font-display: swap;
+  src: url("/build/assets/plus-jakarta-sans-200_800-normal-eXO_dkmS.woff2") format("woff2");
+}
+
+:root {
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+}
+
+.font-plus-jakarta-sans {
+  font-family: var(--font-plus-jakarta-sans);
+}

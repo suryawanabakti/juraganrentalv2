@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "style": {
+    "file": "assets/fonts-DkBxJvey.css",
+    "familyStyles": {
+      "plus-jakarta-sans": "@font-face {\n  font-family: \"Plus Jakarta Sans\";\n  font-style: normal;\n  font-weight: 200,800;\n  font-display: swap;\n  src: url(\"/build/assets/plus-jakarta-sans-200_800-normal-eXO_dkmS.woff2\") format(\"woff2\");\n}\n\n.font-plus-jakarta-sans {\n  font-family: var(--font-plus-jakarta-sans);\n}"
+    },
+    "variables": {
+      "plus-jakarta-sans": "--font-plus-jakarta-sans: \"Plus Jakarta Sans\";"
+    }
+  },
+  "preloads": [
+    {
+      "alias": "plus-jakarta-sans",
+      "family": "Plus Jakarta Sans",
+      "weight": [
+        200,
+        800
+      ],
+      "style": "normal",
+      "file": "assets/plus-jakarta-sans-200_800-normal-eXO_dkmS.woff2",
+      "as": "font",
+      "type": "font/woff2",
+      "crossorigin": "anonymous"
+    }
+  ],
+  "families": {
+    "plus-jakarta-sans": {
+      "family": "Plus Jakarta Sans",
+      "variable": "--font-plus-jakarta-sans",
+      "variants": {
+        "200,800:normal": {
+          "files": [
+            {
+              "file": "assets/plus-jakarta-sans-200_800-normal-eXO_dkmS.woff2",
+              "format": "woff2"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
